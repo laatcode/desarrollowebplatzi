@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
-  background: #EFEFEF;
 }
 
 .header {
@@ -69,12 +68,12 @@ body {
 }
 
 .contenedor {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
 }
 
 .busqueda {
-  margin: 5px 0;
+  padding: 5px 0;
   display: flex;
   justify-content: flex-end;
 }
@@ -96,4 +95,53 @@ body {
   cursor: pointer;
   font-size: 16px;
   margin-left: 5px;
+}
+
+.background-portada {
+  background: #EFEFEF;
+}
+
+.portada {
+  height: 600px;
+  background-image: url('https://picsum.photos/800/600/?random=16');
+  background-size: cover;
+  position: relative;
+}
+
+.portada .recuadro {
+  background: rgba(255, 255, 255, 0.8);
+  width: 500px;
+  height: 150px;
+  position: absolute;
+  left: 20px;
+  bottom: 40px;
+  padding: 20px;
+  color: #5E5E5E;
+}
+
+.portada .recuadro h2 {
+  margin: 0;
+  font-size: 31px;
+}
+
+.portada .recuadro .subrecuadro {
+  border-top: 1px solid #5E5E5E;
+  margin-top: 25px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portada .recuadro .subrecuadro .icon {
+  border-radius: 50%;
+  font-size: 30px;
+  background: white;
+  color: #C4C4C4;
+  margin-right: 10px;
+}
+
+.portada .recuadro .subrecuadro .user {
+  display: flex;
+  align-items: center;
 }
