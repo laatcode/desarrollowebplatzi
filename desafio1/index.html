@@ -4,34 +4,38 @@
     <meta charset="utf-8">
     <title>Desafío 1 - Transformar imagen en diseño HTML y CSS</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
-    <header>
+    <header class="header">
       <figure>
         <a href="#">
           <img src="images/platzi.webp" alt="">
         </a>
       </figure>
-      <nav>
-        <ul>
-          <li>
-            <a href="#">Cursos</a>
-          </li>
-          <li>
-            <a href="#">Blog</a>
-          </li>
-          <li>
-            <a href="#">FAQ</a>
-          </li>
-          <li>
-            <a href="#">Horarios</a>
-          </li>
-          <li>
-            <a href="#">Live</a>
-          </li>
-        </ul>
-      </nav>
-      <button type="button" name="button">Inicia sesión</button>
+      <div>
+        <nav class="menu">
+          <ul>
+            <li>
+              <a class="separator" href="#">Cursos</a>
+            </li>
+            <li>
+              <a class="separator" href="#">Blog</a>
+            </li>
+            <li>
+              <a class="separator" href="#">FAQ</a>
+            </li>
+            <li>
+              <a class="separator" href="#">Horarios</a>
+            </li>
+            <li>
+              <a href="#">Live</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="button" type="button" name="button">Inicia sesión</button>
+      </div>
     </header>
     <section>
       <div class="busqueda">
