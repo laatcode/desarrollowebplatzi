@@ -174,3 +174,32 @@ body {
   padding: 10px 0;
   padding-bottom: 30px;
 }
+
+.footer {
+  margin: 30px;
+  margin-bottom: 50px;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.pagination span {
+  color: #696969;
+  font-weight: bold;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #696969;
+  border: 1px solid #D7D7D7;
+  padding: 5px 10px;
+  background-color: #EAEAEA;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.pagination .active {
+  border: none;
+  background: none;
+}
