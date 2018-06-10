@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+h1, p {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.header {
+  background: red;
+}
+
+.content {
+  background: peru;
+  min-height: 100%;
+}
+
+.content-inside {
+  padding-bottom: 50px;
+}
+
+.footer {
+  height: 50px;
+  margin-top: -50px;
+  background: orange;
+}
