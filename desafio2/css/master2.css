@@ -16,13 +16,14 @@ h1, p {
 .content {
   background: peru;
   min-height: 100%;
-  margin-bottom: -100px;
+  margin-bottom: -50px;
 }
 
-.push, .footer {
+.push {
   height: 50px;
 }
 
-.footer {
+.footer{
+  height: 50px;
   background: orange;
 }
