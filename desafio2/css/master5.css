@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin: 0;
+}
+
+h1, p {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.header {
+  background: red;
+}
+
+.content {
+  background: peru;
+}
+
+.footer {
+  height: 50px;
+  background: orange;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
