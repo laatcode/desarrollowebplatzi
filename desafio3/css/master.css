@@ -8,9 +8,22 @@ body {
   background-size: 100%;
   transition-duration: 2s;
   transition-property: background-size;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 body:hover {
   border: 5px solid red;
   background-size: 120%;
+}
+
+body:hover > .caja {
+  display: block;
+}
+
+.caja {
+  background: rgba(255, 255, 255, 0.8);
+  width: 300px;
+  display: none;
 }
