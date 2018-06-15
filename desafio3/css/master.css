@@ -4,8 +4,13 @@ html, body {
 body {
   margin: 0;
   box-sizing: border-box;
+  background-image: url('../images/background.jpg');
+  background-size: 100%;
+  transition-duration: 2s;
+  transition-property: background-size;
 }
 
 body:hover {
   border: 5px solid red;
+  background-size: 120%;
 }
