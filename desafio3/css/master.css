@@ -18,12 +18,16 @@ body:hover {
   background-size: 120%;
 }
 
-body:hover > .caja {
-  display: block;
-}
-
 .caja {
   background: rgba(255, 255, 255, 0.8);
-  width: 300px;
-  display: none;
+  width: 250px;
+  height: 250px;
+  visibility: hidden;
+  transition: .2s;
+  transform: rotate(-45deg);
+}
+
+body:hover > .caja {
+  visibility: visible;
+  transform: rotate(0deg);
 }
