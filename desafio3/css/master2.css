@@ -58,3 +58,12 @@ html, body {
     bottom: 0;
   }
 }
+
+.img2 {
+  background: red;
+  width: 166px;
+  height: 171px;
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}
