@@ -18,3 +18,20 @@ html, body {
   right: 0;
   margin: 0 auto;
 }
+
+.img1 {
+  width: 166px;
+  height: 171px;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.img1-body, .img1-head, .img1-ipad {
+  position: absolute;
+  bottom: 0;
+}
+
+.img1-ipad {
+  bottom: -15px;
+}
