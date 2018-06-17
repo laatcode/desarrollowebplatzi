@@ -30,8 +30,31 @@ html, body {
 .img1-body, .img1-head, .img1-ipad {
   position: absolute;
   bottom: 0;
+  transition: .4s;
 }
 
 .img1-ipad {
   bottom: -15px;
+}
+
+.img1:hover .img1-head {
+  animation: .5s img1-head infinite;
+}
+
+.img1:hover .img1-body {
+  bottom: -4px;
+}
+
+.img1:hover .img1-ipad {
+  transform: rotate(-7deg);
+}
+
+@keyframes img1-head {
+  50% {
+    transform: rotate(3deg);
+    bottom: -3px;
+  }
+  100% {
+    bottom: 0;
+  }
 }
