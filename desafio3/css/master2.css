@@ -60,10 +60,23 @@ html, body {
 }
 
 .img2 {
-  background: red;
-  width: 166px;
-  height: 171px;
+  width: 246px;
+  height: 226px;
   position: absolute;
   bottom: 0;
-  right: 50px;
+  right: 20px;
+  overflow: hidden;
+}
+
+.img2-body {
+  position: absolute;
+}
+
+.img2-right-hand, .img2-left-hand {
+  position: absolute;
+  bottom: -20px;
+}
+
+.img2-left-hand {
+  right: 0;
 }
