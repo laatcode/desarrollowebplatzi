@@ -70,13 +70,27 @@ html, body {
 
 .img2-body {
   position: absolute;
+  transition: .6s;
 }
 
 .img2-right-hand, .img2-left-hand {
   position: absolute;
   bottom: -20px;
+  transition:.6s;
 }
 
 .img2-left-hand {
   right: 0;
+}
+
+.img2:hover .img2-body {
+  transform: rotate(7deg) translateY(10px);
+}
+
+.img2:hover .img2-right-hand {
+  transform: rotate(9deg);
+}
+
+.img2:hover .img2-left-hand {
+  bottom: -10px;
 }
