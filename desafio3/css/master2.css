@@ -94,3 +94,25 @@ html, body {
 .img2:hover .img2-left-hand {
   bottom: -10px;
 }
+
+.laptop {
+  position: absolute;
+  bottom: 22px;
+  right: 435px;
+  animation: 5s laptop infinite;
+}
+
+@keyframes laptop {
+  90% {
+    transform: rotate(5deg);
+  }
+  95% {
+    transform: rotate(-5deg);
+  }
+  97% {
+    transform: rotate(5deg);
+  }
+  98% {
+    transform: rotate(-5deg);
+  }
+}
