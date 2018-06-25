@@ -179,4 +179,9 @@ html, body {
   position: absolute;
   bottom: 35px;
   left: 350px;
+  transition: .5s;
+}
+
+.l4c-flag:hover {
+  transform: scaleY(1.2) translateY(-10px);
 }
