@@ -193,6 +193,11 @@ html, body {
 
 .bulb {
   position: absolute;
-  bottom: 0;
-  left: 49%;
+  bottom: 10px;
+  left: 500px;
+  transition: .5s;
+}
+
+.bulb:hover {
+  transform: scale(1.4) rotate(-15deg);
 }
