@@ -230,4 +230,9 @@ html, body {
   position: absolute;
   bottom: 8px;
   right: 261px;
+  transition: .3s;
+}
+
+.apple:hover {
+  transform: scale(1.5) rotate(15deg);
 }
