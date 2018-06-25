@@ -121,8 +121,13 @@ html, body {
   position: absolute;
   bottom: 10px;
   left: 300px;
+  transition: .5s;
   animation: 10s blinky infinite;
   transform: scale(1.2);
+}
+
+.blinky:hover {
+  border-right: 5px solid red;
 }
 
 @keyframes blinky {
