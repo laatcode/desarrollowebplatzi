@@ -214,3 +214,9 @@ html, body {
 .pinterest-flag:hover {
   transform: rotate(10deg) scale(1.1);
 }
+
+.plus-flag {
+  position: absolute;
+  left: 535px;
+  bottom: 24px;
+}
