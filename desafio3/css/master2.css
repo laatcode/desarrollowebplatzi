@@ -236,3 +236,9 @@ html, body {
 .apple:hover {
   transform: scale(1.5) rotate(15deg);
 }
+
+.facebook-flag {
+  position: absolute;
+  bottom: 40px;
+  right: 380px;
+}
