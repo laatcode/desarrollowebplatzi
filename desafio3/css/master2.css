@@ -17,6 +17,7 @@ html, body {
   left: 0;
   right: 0;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .img1 {
@@ -200,4 +201,11 @@ html, body {
 
 .bulb:hover {
   transform: scale(1.4) rotate(-15deg);
+}
+
+.pinterest-flag {
+  position: absolute;
+  bottom: -7px;
+  left: 650px;
+  transform: scale(.9);
 }
