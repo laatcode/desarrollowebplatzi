@@ -208,4 +208,9 @@ html, body {
   bottom: -7px;
   left: 650px;
   transform: scale(.9);
+  transition: .5s;
+}
+
+.pinterest-flag:hover {
+  transform: rotate(10deg) scale(1.1);
 }
