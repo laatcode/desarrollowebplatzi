@@ -264,3 +264,7 @@ html, body {
   bottom: 60px;
   right: 235px;
 }
+
+.linkedin-flag:hover {
+  transform: scaleY(1.2) translateY(-10px);
+}
