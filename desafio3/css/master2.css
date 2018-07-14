@@ -247,3 +247,9 @@ html, body {
 .facebook-flag:hover {
   transform: scaleY(1.2) translateY(-10px);
 }
+
+.twitter-folder {
+  position: absolute;
+  bottom: 0;
+  right: 275px;
+}
