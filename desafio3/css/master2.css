@@ -252,4 +252,9 @@ html, body {
   position: absolute;
   bottom: 0;
   right: 275px;
+  transition: .5s;
+}
+
+.twitter-folder:hover {
+  transform: rotate(10deg) scale(1.5);
 }
