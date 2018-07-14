@@ -258,3 +258,9 @@ html, body {
 .twitter-folder:hover {
   transform: rotate(10deg) scale(1.5);
 }
+
+.linkedin-flag {
+  position: absolute;
+  bottom: 60px;
+  right: 235px;
+}
