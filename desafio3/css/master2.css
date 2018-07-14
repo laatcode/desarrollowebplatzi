@@ -273,4 +273,17 @@ html, body {
   position: absolute;
   bottom: 45px;
   left: 460px;
+  animation: 10s android infinite;
+}
+
+@keyframes android {
+  60% {
+    transform: translateY(0px);
+  }
+  70% {
+    transform: translateY(50px);
+  }
+  90% {
+    transform: translateY(50px);
+  }
 }
