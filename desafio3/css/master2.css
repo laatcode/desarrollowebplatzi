@@ -274,6 +274,11 @@ html, body {
   bottom: 45px;
   left: 460px;
   animation: 10s android infinite;
+  transition: 1s;
+}
+
+.android>img {
+  transition: 1s;
 }
 
 @keyframes android {
@@ -286,4 +291,12 @@ html, body {
   90% {
     transform: translateY(50px);
   }
+}
+
+.android:hover {
+  text-align: right;
+}
+
+.android:hover>img {
+  border-left: 5px solid #33FF00;
 }
