@@ -268,3 +268,9 @@ html, body {
 .linkedin-flag:hover {
   transform: scaleY(1.2) translateY(-10px);
 }
+
+.android {
+  position: absolute;
+  bottom: 45px;
+  left: 460px;
+}
