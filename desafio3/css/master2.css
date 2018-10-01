@@ -332,4 +332,33 @@ html, body {
   left: 150px;
   top: 120px;
   transform: scale(.5);
+  animation: 10s twitter forwards;
+}
+
+@keyframes twitter {
+  30% {
+    left: 640px;
+    top: 220px;
+  }
+  40% {
+    transform: scale(.5) rotate(0);
+    left: 640px;
+    top: 220px;
+  }
+  47% {
+    transform: scale(.5) rotate(35deg);
+  }
+  50% {
+    transform: scale(.5) rotate(0);
+    left: 640px;
+    top: 220px;
+  }
+  /* 55% {
+    transform: rotate(0) scale(.5);
+  } */
+  100% {
+    transform: scale(1);
+    left: 1000px;
+    top: 400px;
+  }
 }
