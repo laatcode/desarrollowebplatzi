@@ -6,6 +6,7 @@ html, body {
 .container {
   height: 100%;
   position: relative;
+  background: url('../images/sky.jpg') no-repeat 0 100%;
 }
 
 .backgroud {
@@ -299,4 +300,11 @@ html, body {
 
 .android:hover>img {
   border-left: 5px solid #33FF00;
+}
+
+.whale {
+  position: absolute;
+  bottom: 91px;
+	left:670px;
+	transition:0.5s;
 }
