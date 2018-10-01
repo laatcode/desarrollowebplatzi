@@ -326,3 +326,10 @@ html, body {
     bottom:91px;
   }
 }
+
+.twitter-bird {
+  position: absolute;
+  left: 150px;
+  top: 120px;
+  transform: scale(.5);
+}
