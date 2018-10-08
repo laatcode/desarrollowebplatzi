@@ -1,0 +1,33 @@
+:root {
+  --blue: #F3F3F6;
+}
+
+body {
+  margin: 0;
+  background-color: var(--blue);
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background: #273D4A;
+  color: white;
+  height: 110px;
+  text-align: center;
+}
+
+header p {
+  font-size: 20px;
+  margin: 10px auto;
+}
+
+.title {
+  margin: 0;
+  padding-top: 20px;
+}
+
+.article {
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px 20px;
+  padding: 20px;
+}
